@@ -1,5 +1,5 @@
 # Psd-Export
-This code helper exports images to Photoshop "Psd" file format as single image or multiple layers It supports only one color mode RGBA , no other features are supported; channel color  data is provided by the `TPsdLayer` class via `GetChannelScanLine` method, it''s possiple to create derived class and override this method to process another type of image.
+This code helper exports images to Photoshop "Psd" file format as single image or multiple layers It supports only one color mode RGBA , no other features are supported; channel color  data is provided by the `TPsdLayer` class via `GetChannelScanLine` method, it''s possible to create derived class and override this method to process another type of image.
 
 ## Background image
 When exporting mutiple layers it's not impotant to use background image which should represente the entire layers since it will be generated automoticly by Photoshop once edited.
